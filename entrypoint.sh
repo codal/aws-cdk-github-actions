@@ -99,7 +99,7 @@ ${output}
 function main(){
 	parseInputs
 	pwd
-	echo "ls"
+	ls
 	cd ${GITHUB_WORKSPACE}/deployments
 	installTypescript
 	installAwsCdk
