@@ -98,6 +98,7 @@ ${output}
 
 function main(){
 	parseInputs
+	ls -l
 	cd ${GITHUB_WORKSPACE}/deployments
 	installTypescript
 	installAwsCdk
