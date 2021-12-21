@@ -100,7 +100,7 @@ function main(){
 	parseInputs
 	pwd
 	ls
-	cd ${GITHUB_WORKSPACE}/deployments
+	cd /deployments
 	installTypescript
 	installAwsCdk
 	installPipRequirements
