@@ -98,7 +98,7 @@ ${output}
 
 function main(){
 	parseInputs
-	cd deployments
+	cd ${GITHUB_WORKSPACE}/deployments
 	installTypescript
 	installAwsCdk
 	installPipRequirements
